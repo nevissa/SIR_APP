@@ -1,0 +1,38 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accident",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-one",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "arret"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "date_debut",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "date_fin",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "nbr_jour",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180607152152",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "arret",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

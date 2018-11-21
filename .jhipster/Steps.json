@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "etapes",
+            "otherEntityName": "listeEtap",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "step"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180711090142",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "steps",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

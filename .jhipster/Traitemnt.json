@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "sys",
+            "otherEntityName": "sysjob",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "job_name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180709115640",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "traitemnt",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

@@ -1,0 +1,18 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "ligne"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20180614142153",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "ligne_prod",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

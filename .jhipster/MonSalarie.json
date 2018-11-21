@@ -1,0 +1,61 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "salarie"
+        },
+        {
+            "relationshipName": "societe",
+            "otherEntityName": "societe_Accident",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "matricule",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "sexe",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "sexeLn",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "permanentInterim",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dateAnciennete",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "idSociete",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "idsociet",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180615073118",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "mon_salarie",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

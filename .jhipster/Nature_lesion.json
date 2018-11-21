@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "many-to-many",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "lesions"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nature_lesion",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20180607094040",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "nature_lesion",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

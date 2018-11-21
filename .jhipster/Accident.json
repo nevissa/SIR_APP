@@ -1,0 +1,103 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "lesions",
+            "otherEntityName": "nature_lesion",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "accidents"
+        },
+        {
+            "relationshipName": "nature",
+            "otherEntityName": "nature_accident",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "sieges",
+            "otherEntityName": "siege_lesion",
+            "relationshipType": "many-to-many",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "accidents"
+        },
+        {
+            "relationshipName": "localisation",
+            "otherEntityName": "localisation",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "risque",
+            "otherEntityName": "type_risque",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [],
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "ligne",
+            "otherEntityName": "prodLigne",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "societe",
+            "otherEntityName": "maSociete",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "salarie",
+            "otherEntityName": "monSalar",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "date_accident",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "arret",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "debu_arret",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "fin_arret",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "materiel",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "circonstance",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sst",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180607094306",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "accident",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

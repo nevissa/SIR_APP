@@ -19,10 +19,28 @@
         "prefix": "jhi",
         "mobile": false,
         "styles": [
+		 "node_modules/igniteui-angular/styles/igniteui-angular.css",
             "content/css/vendor.css",
-            "content/css/global.css"
+            "content/css/global.css",
+			"./src/main/webapp/content/css/jquery.dataTables.min.css",
+				"./src/main/webapp/content/css/buttons.dataTables.min.css"
         ],
-        "scripts": []
+        "scripts": [
+		"node_modules/hammerjs/hammer.min.js",
+		
+		"./src/main/webapp/content/js/vfs_fonts.js",
+			"./src/main/webapp/content/js/jszip.min.js",
+			"./src/main/webapp/content/js/pdfmake.min.js",
+			"./src/main/webapp/content/js/jquery-3.3.1.js",
+			"./src/main/webapp/content/js/jquery.dataTables.min.js",
+			"./src/main/webapp/content/js/dataTables.buttons.min.js",
+			"./src/main/webapp/content/js/buttons.print.min.js",
+			"./src/main/webapp/content/js/buttons.html5.min.js",
+			"./src/main/webapp/content/js/buttons.flash.min.js"
+		"./node_modules/jspdf/dist/jspdf.min.js",
+    "./node_modules/jspdf-autotable/dist/jspdf.plugin.autotable.js"
+		
+		]
     }],
     "e2e": {
         "protractor": {

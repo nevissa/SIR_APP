@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "id_module",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nbre_annee",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180807133036",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "periode",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

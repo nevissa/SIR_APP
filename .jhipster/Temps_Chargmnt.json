@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "texte",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nom_package",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "annee",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "mois",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "jour",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "code_societe",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "duree",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180730084817",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "temps_chargmnt",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

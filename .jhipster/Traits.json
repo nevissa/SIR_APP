@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "job",
+            "otherEntityName": "syjob",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "etapes",
+            "otherEntityName": "etape",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "trait"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "idJob",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180710074439",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "traits",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

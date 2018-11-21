@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "job",
+            "otherEntityName": "jobs",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "id_job",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180710070902",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "liste_traitement",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

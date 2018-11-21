@@ -1,0 +1,26 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "risque"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "type_risque",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20180607115237",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "type_risque",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

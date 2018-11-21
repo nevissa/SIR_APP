@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "traitement",
+            "otherEntityName": "liste_Traitement",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nomEtape",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180710071231",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "liste_etape",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

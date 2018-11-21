@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "trait",
+            "otherEntityName": "listeTraits",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "step",
+            "otherEntityName": "steps",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180711090844",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "liste_etapes",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "ligne"
+        },
+        {
+            "relationshipName": "societe",
+            "otherEntityName": "maSociete",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "codeLignbe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "designation",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180620081340",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "prod_ligne",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "job",
+            "otherEntityName": "job",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "etapes",
+            "otherEntityName": "listeEtap",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "trait"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180711090521",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "liste_traits",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

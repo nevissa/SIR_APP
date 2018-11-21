@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "idSociete",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "codeLigne",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "designation",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180614142016",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "ligne_production",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

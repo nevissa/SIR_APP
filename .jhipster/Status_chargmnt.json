@@ -1,0 +1,44 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "step_id",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "step_name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "date_debut",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "statut",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "run_duration",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "retries_attempted",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "heure_debut",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180730073437",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "status_chargmnt",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "job_name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180709124404",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "traitmnt",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

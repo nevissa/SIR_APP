@@ -1,0 +1,50 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "societe"
+        },
+        {
+            "relationshipName": "salarie",
+            "otherEntityName": "monSalar",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "societe"
+        },
+        {
+            "relationshipName": "lignes",
+            "otherEntityName": "prodLigne",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "societe"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "codesociete",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "codesite",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "codeNorac",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20180619064856",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "ma_societe",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

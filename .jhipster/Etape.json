@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "trait",
+            "otherEntityName": "traits",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipName": "sysjobstep",
+            "otherEntityName": "syjobstep",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180710081426",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "etape",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

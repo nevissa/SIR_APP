@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "code_societe",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "nom_package",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "date_message",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "texte",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180808150112",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "log",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

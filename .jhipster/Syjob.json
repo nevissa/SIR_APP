@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "traits",
+            "otherEntityName": "traits",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "job"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180710075158",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "syjob",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

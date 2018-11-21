@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "repertoire",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lien_fichier",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "version_oledb",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "version_excel",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "table_destination",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180807134819",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "excel_column",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

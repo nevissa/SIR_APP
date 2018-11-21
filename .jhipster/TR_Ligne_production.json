@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "ligneProd"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "codeLigneProd",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "designation",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20180608084527",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "tr_ligne_production",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

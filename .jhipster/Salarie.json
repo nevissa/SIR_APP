@@ -1,0 +1,66 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "accidents",
+            "otherEntityName": "accident",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "salarie"
+        },
+        {
+            "relationshipName": "societe",
+            "otherEntityName": "societe_Accident",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nom",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "prenom",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "matricule",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dateNaissance",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "sexe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sexelb",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "permanent_intrim",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dateAnciennete",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180614100720",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "salarie",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

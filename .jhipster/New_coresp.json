@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "id_societe",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "field",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "value_in",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "value_out",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180808073629",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "new_coresp",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
